@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="ProgressButton">
+        <attr name="dora_showBorder" format="boolean" />
+        <attr name="dora_borderWidth" format="dimension|reference" />
+        <attr name="dora_borderColor" format="color|reference" />
+        <attr name="dora_cornerRadius" format="dimension|reference" />
+        <attr name="dora_hoverTextColor" format="color|reference" />
+        <attr name="dora_backgroundColor" format="color|reference" />
+        <attr name="dora_hoverColor" format="color|reference" />
+        <attr name="dora_pausedText" format="string|reference"/>
+        <attr name="dora_finishedText" format="string|reference"/>
+        <attr name="dora_autoReset" format="boolean"/>
+    </declare-styleable>
+</resources>

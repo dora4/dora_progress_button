@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <dora.widget.ProgressButton
+        android:id="@+id/progressButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="下载"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        app:dora_cornerRadius="20dp"
+        app:dora_hoverTextColor="@color/white"
+        app:dora_backgroundColor="#389CFF"
+        app:dora_hoverColor="#00BFFF"
+        app:dora_pausedText="继续下载"
+        app:dora_finishedText="安装"
+        android:layout_centerInParent="true"/>
+
+    <dora.widget.ProgressButton
+        android:id="@+id/progressButtonWithBorder"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="下载"
+        android:textColor="#389CFF"
+        android:layout_margin="10dp"
+        app:dora_showBorder="true"
+        app:dora_borderWidth="1dp"
+        app:dora_cornerRadius="4dp"
+        app:dora_borderColor="#389CFF"
+        app:dora_hoverTextColor="@color/white"
+        app:dora_backgroundColor="@color/white"
+        app:dora_hoverColor="#389CFF"
+        app:dora_autoReset="true"
+        app:dora_pausedText="继续下载"
+        app:dora_finishedText="安装"
+        android:layout_centerInParent="true"/>
+</LinearLayout>
